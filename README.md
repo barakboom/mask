@@ -13,15 +13,10 @@ mask-detection/
 ├── mask_model.h5          # Saved trained model
 ├── README.md              # Project documentation
 └── app.py (optional)      # Gradio interface script
-```
-
----
 
 ## 📥 Dataset
 
-You must prepare the dataset in this folder format:
-
-```
+You must prepare the dataset in this folder format
 dataset/
    train/
       with_mask/
@@ -29,11 +24,8 @@ dataset/
    test/
       with_mask/
       without_mask/
-```
 
 You can use any public face mask dataset (Kaggle recommended).
-
----
 
 ## 🧠 Model Architecture
 
@@ -46,8 +38,6 @@ A simple **Convolutional Neural Network (CNN)**:
 * Dense(1, sigmoid) output
 
 Designed for fast training even on low-end hardware.
-
----
 
 ## 🚀 How to Train the Model (Google Colab)
 
@@ -63,8 +53,6 @@ Designed for fast training even on low-end hardware.
 
 Training time: **5–15 minutes** depending on GPU.
 
----
-
 ## 📊 Evaluation
 
 You will get:
@@ -77,8 +65,6 @@ Example (expected):
 
 * Training Accuracy: **95%**
 * Validation Accuracy: **90–93%**
-
----
 
 ## 🖼️ Gradio Demo (Real-Time Testing)
 
@@ -126,6 +112,11 @@ model = tf.keras.models.load_model('mask_model.h5')
 
 ## 👨‍💻 Authors
 
-* Group Members (Replace with your names)
 * Course: Selected Topics in Computer Science (CoSc4132)
-
+Group Member                                                        ID
+1.Abebe Mamuye………………………………. 0699/13 
+2.Bereket Negassa ………………………………0709/13 
+3.Dagmawi Dereje ………………………………0723/13 
+4.Mekonnen Shawatatek ……………………… ..0760/13 
+5.Rediet Habtamu ………………………………...0768/13 
+6.Tadiyos Mamush ………………………………..0776/13
